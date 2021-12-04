@@ -20,7 +20,7 @@ object Spark01_RDD_Operator_Transform {
     }
 
     // val mapRDD: RDD[Int] = rdd.map(mapFunction)
-    // val mapRDD: RDD[Int] = rdd.map((num:Int) => {num * 2})
+    // val mapRDD: RDD[Int] = rdd.map((num:Int) => {num * 2})  //匿名函数
     // val mapRDD: RDD[Int] = rdd.map((num:Int) => num * 2)
     // val mapRDD: RDD[Int] = rdd.map((num) => num * 2)
     // val mapRDD: RDD[Int] = rdd.map(num => num * 2)
