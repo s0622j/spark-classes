@@ -13,7 +13,7 @@ object Spark01_RDD_Part {
       ("nba", "xxxxxxxxx"),
       ("cba", "xxxxxxxxx"),
       ("wnba", "xxxxxxxxx"),
-      ("nba", "xxxxxxxxx"),
+      ("nba", "xxxxxxxxx")
     ),3)
     val partRDD: RDD[(String, String)] = rdd.partitionBy( new MyPartitioner )
 
